@@ -1,0 +1,75 @@
+.each-repository-container {
+  width: 80vw;
+  border-radius: 22px;
+  background-color: #f8f8ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  margin: 15px 5px 15px 5px;
+}
+.avatar-img {
+  height: 200px;
+  width: 50%;
+}
+.repository-name {
+  color: #e73959;
+  font-size: 25px;
+  font-weight: 500;
+}
+.sfi-container {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sfi-img {
+  height: 20px;
+  width: 20px;
+}
+.sfi-count {
+  color: #1e293b;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .each-repository-container {
+    width: 230px;
+    border-radius: 17px;
+    background-color: #f8f8ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    margin: 15px 5px 15px 5px;
+  }
+  .avatar-img {
+    height: 110px;
+    width: 110px;
+  }
+  .repository-name {
+    color: #e73959;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .sfi-container {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .sfi-img {
+    height: 18px;
+    width: 18px;
+  }
+  .sfi-count {
+    color: #1e293b;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-size: 16px;
+  }
+}
